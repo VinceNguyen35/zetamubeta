@@ -32,5 +32,5 @@ var server = app.listen(app.get('port'), function() {
 	console.log("Connection successful on port " + port);
 });
 
-export const handler = serverless(app);
+module.exports.handler = serverless(app);
 
