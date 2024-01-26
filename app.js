@@ -3,7 +3,6 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var bodyParser = require('body-parser');
-var serverless = require('serverless-http');
 
 var routes = require('./api/routes');
 
@@ -31,6 +30,4 @@ var server = app.listen(app.get('port'), function() {
 	var port = server.address().port; // Get the port from address
 	console.log("Connection successful on port " + port);
 });
-
-module.exports.handler = serverless(app);
 
