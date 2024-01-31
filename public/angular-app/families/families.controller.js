@@ -78,6 +78,12 @@ function FamiliesController($scope) {
                                             type: "brother",
                                             children: [
                                               {
+                                                name: "Kyle Del Rosario",
+                                                parent: "Phillip Tran",
+                                                type: "brother",
+                                                children: []
+                                              },
+                                              {
                                                 name: "Nicole Mababa",
                                                 parent: "Phillip Tran",
                                                 type: "queen",
@@ -318,6 +324,12 @@ function FamiliesController($scope) {
                                     parent: "Raymond Abalos",
                                     type: "brother",
                                     children: [
+                                      {
+                                        name: "Angelo Cervana",
+                                        parent: "Gustavo Pech",
+                                        type: "brother",
+                                        children: []
+                                      },
                                       {
                                         name: "Daniella Hernandez",
                                         parent: "Gustavo Pech",
@@ -637,7 +649,14 @@ function FamiliesController($scope) {
                                     name: "Joseph Tallo",
                                     parent: "Bryan Cruz",
                                     type: "brother",
-                                    children: []
+                                    children: [
+                                      {
+                                        name: "Brian John Magbanua",
+                                        parent: "Joseph Tallo",
+                                        type: "brother",
+                                        children: [],
+                                      }
+                                    ]
                                   },
                                   {
                                     name: "Maritza Garcia",
@@ -691,7 +710,20 @@ function FamiliesController($scope) {
                             name: "Anthony Paguio",
                             parent: "Aaron Fajardo",
                             type: "brother",
-                            children: []
+                            children: [
+                              {
+                                name: "Jayden Fontelera",
+                                parent: "Anthony Paguio",
+                                type: "brother",
+                                children: [],
+                              },
+                              {
+                                name: "Nona Palacios",
+                                parent: "Anthony Paguio",
+                                type: "queen",
+                                children: [],
+                              }
+                            ]
                           },
                           {
                             name: "Melanie Jones",

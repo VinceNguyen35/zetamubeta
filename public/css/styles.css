@@ -132,6 +132,12 @@ a:active {
   stroke-width: 5px;
 }
 
+.rush {
+	width: 700px;
+	display: block;
+	margin: auto;
+}
+
 #edit-brothers-buttons {
 	padding: 0;
 }
