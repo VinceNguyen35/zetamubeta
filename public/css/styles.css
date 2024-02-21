@@ -67,6 +67,16 @@ a:active {
 	margin-top: 10px;
 }
 
+.centerized {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main-image {
+	max-width: 900px;
+}
+
 .thumbnail {
 	margin: 0;
 	border: none;
